@@ -48,29 +48,31 @@ public class TestLogin {
 				
 	}
 	
-	private String sUsername;
-	private String sPassword;
+//	private String sUsername;
+//	private String sPassword;
 	
 	
 	@BeforeClass
 	//@Parameter("suiteParam")
-	@Parameters({"sUsername","sPassword"})
-	public void init(String sUsername, String sPassword) {
-	this.sUsername = sUsername;
-	this.sPassword = sPassword;
-	}
+//	@Parameters({"sUsername","sPassword"})
+//	public void init(String sUsername, String sPassword) {
+//	this.sUsername = sUsername;
+//	this.sPassword = sPassword;
+//	}
 	
 	
 	@Test
 	public void correctLogin() {
 	
 		PaginaLogin login = new PaginaLogin(driver);
+		login.escribirUsername("guido.robles");
+		login.escribirPassword("Guido$01");
 		
 				
 		
-		login.loginVerification(sUsername, sPassword);
-		System.out.println("sUsername" + sUsername);
-		System.out.println("sPassword" + sPassword);
+	//	login.loginVerification(sUsername, sPassword);
+		//System.out.println("sUsername" + sUsername);
+		//System.out.println("sPassword" + sPassword);
 		
 		login.clickOnLogin();
 		PaginaHome home = new PaginaHome(driver);

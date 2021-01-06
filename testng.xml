@@ -2,10 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  <parameter name="sUsername" value="guido.robles"/>
-  <parameter name="sPassword" value="Guido$01"/>
+
     <classes>
       <class name="Pruebas.TestLogin"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test
+    <parameter name="sUsername" value="guido.robles"/>
+  <parameter name="sPassword" value="Guido$01"/>
+   -->
 </suite> <!-- Suite -->
