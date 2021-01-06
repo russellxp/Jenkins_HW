@@ -9,7 +9,6 @@
           <include name="setUp"/>
           <include name="cerrar"/>
           <include name="correctLogin"/>
-          <include name="correctLogin"/>
         </methods>
       </class> <!-- Pruebas.TestLogin -->
     </classes>

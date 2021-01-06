@@ -42,8 +42,12 @@ public class TestLogin {
 		String msjError = login.getTextError();
 		System.out.println(msjError);
 		
+		//System.out.println("Paso error Login");
 		Assert.assertEquals(msjError, "Login failed");		
+		System.out.println("Paso error Login");
 		
+		//PaginaHome home = new PaginaHome(driver);
+		//home.logOut();
 		//Assert.assertEquals(login.getTextError(), "AUTHENTICATION");
 				
 	}
@@ -82,6 +86,7 @@ public class TestLogin {
 		System.out.println("msjH3 :" + msjH3);
 		
 		Assert.assertEquals(msjH3, "Welcome back");	
+		System.out.println("Paso Correct Login");
 		
 		home.logOut();
 		

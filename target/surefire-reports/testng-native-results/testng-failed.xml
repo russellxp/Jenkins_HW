@@ -8,7 +8,7 @@
           <include name="errorLogin"/>
           <include name="setUp"/>
           <include name="cerrar"/>
-          <include name="init"/>
+          <include name="correctLogin"/>
           <include name="correctLogin"/>
         </methods>
       </class> <!-- Pruebas.TestLogin -->
