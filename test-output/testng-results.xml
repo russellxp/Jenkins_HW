@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-06T13:41:52 PET" name="Suite" finished-at="2021-01-06T13:42:32 PET" duration-ms="39815">
+  <suite started-at="2021-01-06T15:22:01 PET" name="Suite" finished-at="2021-01-06T15:22:15 PET" duration-ms="14284">
     <groups>
     </groups>
-    <test started-at="2021-01-06T13:41:52 PET" name="Test" finished-at="2021-01-06T13:42:32 PET" duration-ms="39815">
+    <test started-at="2021-01-06T15:22:01 PET" name="Test" finished-at="2021-01-06T15:22:15 PET" duration-ms="14284">
       <class name="Pruebas.TestLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T13:41:03 PET" name="setUp" finished-at="2021-01-06T13:41:52 PET" duration-ms="48655" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:21:42 PET" name="setUp" finished-at="2021-01-06T15:22:01 PET" duration-ms="18725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T13:41:52 PET" name="correctLogin" finished-at="2021-01-06T13:42:12 PET" duration-ms="20544" status="PASS">
+        <test-method is-config="true" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:22:01 PET" name="correctLogin" finished-at="2021-01-06T15:22:08 PET" duration-ms="7752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctLogin -->
-        <test-method signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T13:42:12 PET" name="correctLogin" finished-at="2021-01-06T13:42:25 PET" duration-ms="12513" status="PASS">
+        <test-method signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:22:08 PET" name="correctLogin" finished-at="2021-01-06T15:22:13 PET" duration-ms="4409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctLogin -->
-        <test-method signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T13:42:25 PET" name="errorLogin" finished-at="2021-01-06T13:42:28 PET" duration-ms="3093" status="PASS">
+        <test-method signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:22:13 PET" name="errorLogin" finished-at="2021-01-06T15:22:15 PET" duration-ms="1796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorLogin -->
-        <test-method is-config="true" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T13:42:28 PET" name="cerrar" finished-at="2021-01-06T13:42:32 PET" duration-ms="3475" status="PASS">
+        <test-method is-config="true" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:22:15 PET" name="cerrar" finished-at="2021-01-06T15:22:15 PET" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrar -->
