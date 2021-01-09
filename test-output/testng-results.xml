@@ -1,41 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-05T16:09:42 PET" name="Suite" finished-at="2021-01-05T16:09:55 PET" duration-ms="13270">
+  <suite name="Suite" duration-ms="5969" started-at="2021-01-06T12:18:13 COT" finished-at="2021-01-06T12:18:19 COT">
     <groups>
     </groups>
-    <test started-at="2021-01-05T16:09:42 PET" name="Test" finished-at="2021-01-05T16:09:55 PET" duration-ms="13270">
+    <test name="Test" duration-ms="5969" started-at="2021-01-06T12:18:13 COT" finished-at="2021-01-06T12:18:19 COT">
       <class name="Pruebas.TestLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Pruebas.TestLogin@6c130c45]" started-at="2021-01-05T16:09:22 PET" name="setUp" finished-at="2021-01-05T16:09:42 PET" duration-ms="19473" status="PASS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Pruebas.TestLogin@1d8d30f7]" name="setUp" is-config="true" duration-ms="16222" started-at="2021-01-06T12:17:57 COT" finished-at="2021-01-06T12:18:13 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="init(java.lang.String, java.lang.String)[pri:0, instance:Pruebas.TestLogin@6c130c45]" started-at="2021-01-05T16:09:42 PET" name="init" finished-at="2021-01-05T16:09:42 PET" duration-ms="9" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[guido.robles]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Guido$01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@6c130c45]" started-at="2021-01-05T16:09:42 PET" name="correctLogin" finished-at="2021-01-05T16:09:51 PET" duration-ms="9444" status="PASS">
+        <test-method status="PASS" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@1d8d30f7]" name="correctLogin" duration-ms="4529" started-at="2021-01-06T12:18:13 COT" finished-at="2021-01-06T12:18:18 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctLogin -->
-        <test-method signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@6c130c45]" started-at="2021-01-05T16:09:51 PET" name="errorLogin" finished-at="2021-01-05T16:09:53 PET" duration-ms="2067" status="PASS">
+        <test-method status="FAIL" signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@1d8d30f7]" name="errorLogin" duration-ms="1288" started-at="2021-01-06T12:18:18 COT" finished-at="2021-01-06T12:18:19 COT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [khkhkhkhkLogin failed] but found [Login failed]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [khkhkhkhkLogin failed] but found [Login failed]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Pruebas.TestLogin.errorLogin(TestLogin.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorLogin -->
-        <test-method is-config="true" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@6c130c45]" started-at="2021-01-05T16:09:53 PET" name="cerrar" finished-at="2021-01-05T16:09:55 PET" duration-ms="1655" status="PASS">
+        <test-method status="PASS" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@1d8d30f7]" name="cerrar" is-config="true" duration-ms="80" started-at="2021-01-06T12:18:19 COT" finished-at="2021-01-06T12:18:19 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrar -->
