@@ -52,30 +52,30 @@ public class TestLogin {
 				
 	}
 	
-<<<<<<< HEAD
+
 	//private String sUsername="Guido";
 	//private String sPassword="Robles";
-=======
+
 //	private String sUsername;
 //	private String sPassword;
->>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
+
 	
 	
 //	@BeforeClass
 	//@Parameter("suiteParam")
-<<<<<<< HEAD
+
 	//@Parameters({"sUsername","sPassword"})
 	//public void init(String sUsername, String sPassword) {
 	//this.sUsername = sUsername;
 	//this.sPassword = sPassword;
 	//}
-=======
+
 //	@Parameters({"sUsername","sPassword"})
 //	public void init(String sUsername, String sPassword) {
 //	this.sUsername = sUsername;
 //	this.sPassword = sPassword;
 //	}
->>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
+
 	
 	
 	@Test
@@ -87,13 +87,11 @@ public class TestLogin {
 		
 				
 		
-<<<<<<< HEAD
+
 		login.loginVerification("guido.robles", "Guido$01");
 	//	System.out.println("sUsername" + sUsername);
-=======
 	//	login.loginVerification(sUsername, sPassword);
-		//System.out.println("sUsername" + sUsername);
->>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
+		//System.out.println("sUsername" + sUsername);>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
 		//System.out.println("sPassword" + sPassword);
 		
 		login.clickOnLogin();

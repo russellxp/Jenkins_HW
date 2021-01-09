@@ -2,21 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Surefire suite" duration-ms="33" started-at="2021-01-06T12:22:13 COT" finished-at="2021-01-06T12:22:13 COT">
+  <suite name="Surefire suite" duration-ms="34" started-at="2021-01-08T21:31:24 COT" finished-at="2021-01-08T21:31:24 COT">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="33" started-at="2021-01-06T12:22:13 COT" finished-at="2021-01-06T12:22:13 COT">
+    <test name="Surefire test" duration-ms="34" started-at="2021-01-08T21:31:24 COT" finished-at="2021-01-08T21:31:24 COT">
       <class name="Automation.AutomationHW.AppTest">
-        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="5" started-at="2021-01-06T12:22:13 COT" finished-at="2021-01-06T12:22:13 COT">
-=======
-  <suite name="Command line suite" duration-ms="17" started-at="2021-01-06T15:24:10 COT" finished-at="2021-01-06T15:24:10 COT">
-    <groups>
-    </groups>
-    <test name="Command line test" duration-ms="17" started-at="2021-01-06T15:24:10 COT" finished-at="2021-01-06T15:24:10 COT">
-      <class name="Automation.AutomationHW.AppTest">
-        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(Automation.AutomationHW.AppTest)]" name="testApp" duration-ms="1" started-at="2021-01-06T15:24:10 COT" finished-at="2021-01-06T15:24:10 COT">
->>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="5" started-at="2021-01-08T21:31:24 COT" finished-at="2021-01-08T21:31:24 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
