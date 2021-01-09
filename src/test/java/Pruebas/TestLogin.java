@@ -42,34 +42,58 @@ public class TestLogin {
 		String msjError = login.getTextError();
 		System.out.println(msjError);
 		
+		//System.out.println("Paso error Login");
 		Assert.assertEquals(msjError, "Login failed");		
+		System.out.println("Paso error Login");
 		
+		//PaginaHome home = new PaginaHome(driver);
+		//home.logOut();
 		//Assert.assertEquals(login.getTextError(), "AUTHENTICATION");
 				
 	}
 	
+<<<<<<< HEAD
 	//private String sUsername="Guido";
 	//private String sPassword="Robles";
+=======
+//	private String sUsername;
+//	private String sPassword;
+>>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
 	
 	
 //	@BeforeClass
 	//@Parameter("suiteParam")
+<<<<<<< HEAD
 	//@Parameters({"sUsername","sPassword"})
 	//public void init(String sUsername, String sPassword) {
 	//this.sUsername = sUsername;
 	//this.sPassword = sPassword;
 	//}
+=======
+//	@Parameters({"sUsername","sPassword"})
+//	public void init(String sUsername, String sPassword) {
+//	this.sUsername = sUsername;
+//	this.sPassword = sPassword;
+//	}
+>>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
 	
 	
 	@Test
 	public void correctLogin() {
 	
 		PaginaLogin login = new PaginaLogin(driver);
+		login.escribirUsername("guido.robles");
+		login.escribirPassword("Guido$01");
 		
 				
 		
+<<<<<<< HEAD
 		login.loginVerification("guido.robles", "Guido$01");
 	//	System.out.println("sUsername" + sUsername);
+=======
+	//	login.loginVerification(sUsername, sPassword);
+		//System.out.println("sUsername" + sUsername);
+>>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
 		//System.out.println("sPassword" + sPassword);
 		
 		login.clickOnLogin();
@@ -80,6 +104,7 @@ public class TestLogin {
 		System.out.println("msjH3 :" + msjH3);
 		
 		Assert.assertEquals(msjH3, "Welcome back");	
+		System.out.println("Paso Correct Login");
 		
 		home.logOut();
 		

@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Suite" duration-ms="5969" started-at="2021-01-06T12:18:13 COT" finished-at="2021-01-06T12:18:19 COT">
     <groups>
     </groups>
@@ -64,6 +65,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- errorLogin -->
         <test-method status="PASS" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@1d8d30f7]" name="cerrar" is-config="true" duration-ms="80" started-at="2021-01-06T12:18:19 COT" finished-at="2021-01-06T12:18:19 COT">
+=======
+  <suite started-at="2021-01-06T15:22:01 PET" name="Suite" finished-at="2021-01-06T15:22:15 PET" duration-ms="14284">
+    <groups>
+    </groups>
+    <test started-at="2021-01-06T15:22:01 PET" name="Test" finished-at="2021-01-06T15:22:15 PET" duration-ms="14284">
+      <class name="Pruebas.TestLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:21:42 PET" name="setUp" finished-at="2021-01-06T15:22:01 PET" duration-ms="18725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:22:01 PET" name="correctLogin" finished-at="2021-01-06T15:22:08 PET" duration-ms="7752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLogin -->
+        <test-method signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:22:08 PET" name="correctLogin" finished-at="2021-01-06T15:22:13 PET" duration-ms="4409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLogin -->
+        <test-method signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:22:13 PET" name="errorLogin" finished-at="2021-01-06T15:22:15 PET" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorLogin -->
+        <test-method is-config="true" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@2dde1bff]" started-at="2021-01-06T15:22:15 PET" name="cerrar" finished-at="2021-01-06T15:22:15 PET" duration-ms="219" status="PASS">
+>>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrar -->

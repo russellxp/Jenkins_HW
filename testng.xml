@@ -6,8 +6,15 @@
     <classes>
       <class name="Pruebas.TestLogin"/>
     </classes>
+<<<<<<< HEAD
   </test> <!-- 
     <parameter name="sUsername" value="guido.robles"/>
   <parameter name="sPassword" value="Guido$01"/>
   Test -->
+=======
+  </test> <!-- Test
+    <parameter name="sUsername" value="guido.robles"/>
+  <parameter name="sPassword" value="Guido$01"/>
+   -->
+>>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
 </suite> <!-- Suite -->

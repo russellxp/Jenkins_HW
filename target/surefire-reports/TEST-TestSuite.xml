@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.319" tests="3" errors="0" skipped="0" failures="0">
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="TestSuite" time="6.971" errors="0" skipped="0">
+>>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,7 +65,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="correctLogin" classname="Pruebas.TestLogin" time="4.453"/>
   <testcase name="errorLogin" classname="Pruebas.TestLogin" time="1.096"/>
   <testcase name="testApp on testApp(Automation.AutomationHW.AppTest)" classname="Automation.AutomationHW.AppTest" time="0.002"/>
+=======
+  <testcase classname="Pruebas.TestLogin" name="correctLogin" time="3.722"/>
+  <testcase classname="Pruebas.TestLogin" name="errorLogin" time="1.46"/>
+  <testcase classname="Automation.AutomationHW.AppTest" name="testApp on testApp(Automation.AutomationHW.AppTest)" time="1.789"/>
+>>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
 </testsuite>
