@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 /target/
 /test-output/
-
-=======
-.settings
 test-output
 .classpath
-/target/
->>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
