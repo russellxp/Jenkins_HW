@@ -8,10 +8,6 @@
           <include name="errorLogin"/>
           <include name="setUp"/>
           <include name="cerrar"/>
-<<<<<<< HEAD
-=======
-          <include name="correctLogin"/>
->>>>>>> 447b4e3f30749b04e3e958145a37f4961fc99c6f
         </methods>
       </class> <!-- Pruebas.TestLogin -->
     </classes>
