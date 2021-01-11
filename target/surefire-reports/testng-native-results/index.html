@@ -135,16 +135,10 @@
                   <a name="correctLogin">
                   </a> <!-- correctLogin -->
                   <span class="method-name">correctLogin</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver
-	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:282)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:154)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
-	at Pruebas.TestLogin.setUp(TestLogin.java:29)
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
+	URL cannot be resolved to a type
+
+	at Pruebas.TestLogin.setUp(TestLogin.java:35)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -154,16 +148,10 @@
                   <a name="errorLogin">
                   </a> <!-- errorLogin -->
                   <span class="method-name">errorLogin</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver
-	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:282)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:154)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:105)
-	at Pruebas.TestLogin.setUp(TestLogin.java:29)
+                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
+	URL cannot be resolved to a type
+
+	at Pruebas.TestLogin.setUp(TestLogin.java:35)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -223,11 +211,11 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'correctLogin')
+data.setCell(0, 1, 'errorLogin')
 data.setCell(0, 2, 'Pruebas.TestLogin')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'errorLogin')
+data.setCell(1, 1, 'correctLogin')
 data.setCell(1, 2, 'Pruebas.TestLogin')
 data.setCell(1, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
@@ -269,15 +257,15 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">correctLogin</span>
-                <span class="method-start">86 ms</span>
+                <span class="method-start">66 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">errorLogin</span>
-                <span class="method-start">87 ms</span>
+                <span class="method-start">69 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">cerrar</span>
-                <span class="method-start">90 ms</span>
+                <span class="method-start">72 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

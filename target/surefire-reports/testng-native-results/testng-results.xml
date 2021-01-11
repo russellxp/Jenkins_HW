@@ -2,27 +2,23 @@
 <testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="32" started-at="2021-01-11T01:14:34 COT" finished-at="2021-01-11T01:14:34 COT">
+  <suite name="Surefire suite" duration-ms="46" started-at="2021-01-11T14:19:28 COT" finished-at="2021-01-11T14:19:28 COT">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="32" started-at="2021-01-11T01:14:34 COT" finished-at="2021-01-11T01:14:34 COT">
+    <test name="Surefire test" duration-ms="46" started-at="2021-01-11T14:19:28 COT" finished-at="2021-01-11T14:19:28 COT">
       <class name="Pruebas.TestLogin">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="setUp" is-config="true" duration-ms="49" started-at="2021-01-11T01:14:34 COT" finished-at="2021-01-11T01:14:34 COT">
-          <exception class="java.lang.IllegalStateException">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:Pruebas.TestLogin@35d176f7]" name="setUp" is-config="true" duration-ms="13" started-at="2021-01-11T14:19:28 COT" finished-at="2021-01-11T14:19:28 COT">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver]]>
+              <![CDATA[Unresolved compilation problem: 
+URL cannot be resolved to a type
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver
-at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:282)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:154)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
-at Pruebas.TestLogin.setUp(TestLogin.java:29)
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+URL cannot be resolved to a type
+
+at Pruebas.TestLogin.setUp(TestLogin.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -49,26 +45,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="correctLogin" duration-ms="0" started-at="2021-01-11T01:14:34 COT" finished-at="2021-01-11T01:14:34 COT">
-          <exception class="java.lang.IllegalStateException">
+        <test-method status="SKIP" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@35d176f7]" name="correctLogin" duration-ms="0" started-at="2021-01-11T14:19:28 COT" finished-at="2021-01-11T14:19:28 COT">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver]]>
+              <![CDATA[Unresolved compilation problem: 
+URL cannot be resolved to a type
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver
-at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:282)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:154)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
-at Pruebas.TestLogin.setUp(TestLogin.java:29)
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+URL cannot be resolved to a type
+
+at Pruebas.TestLogin.setUp(TestLogin.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -95,26 +87,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctLogin -->
-        <test-method status="SKIP" signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="errorLogin" duration-ms="0" started-at="2021-01-11T01:14:34 COT" finished-at="2021-01-11T01:14:34 COT">
-          <exception class="java.lang.IllegalStateException">
+        <test-method status="SKIP" signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@35d176f7]" name="errorLogin" duration-ms="0" started-at="2021-01-11T14:19:28 COT" finished-at="2021-01-11T14:19:28 COT">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver]]>
+              <![CDATA[Unresolved compilation problem: 
+URL cannot be resolved to a type
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver
-at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:282)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:154)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
-at Pruebas.TestLogin.setUp(TestLogin.java:29)
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+URL cannot be resolved to a type
+
+at Pruebas.TestLogin.setUp(TestLogin.java:35)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -141,11 +129,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorLogin -->
-        <test-method status="SKIP" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="cerrar" is-config="true" duration-ms="-1610345674911" started-at="2021-01-11T01:14:34 COT" finished-at="1969-12-31T19:00:00 COT">
+        <test-method status="SKIP" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@35d176f7]" name="cerrar" is-config="true" duration-ms="-1610392768561" started-at="2021-01-11T14:19:28 COT" finished-at="1969-12-31T19:00:00 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrar -->

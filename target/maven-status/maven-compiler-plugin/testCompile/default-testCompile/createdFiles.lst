@@ -1,4 +1,5 @@
 paginas\PaginaHome.class
+Pruebas\TestLogin.class
 paginas\PaginaRequest.class
 paginas\PaginaPatients.class
 Automation\AutomationHW\AppTest.class

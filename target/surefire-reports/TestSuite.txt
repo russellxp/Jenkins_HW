@@ -1,8 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.667 s <<< FAILURE! - in TestSuite
-Pruebas.TestLogin.setUp  Time elapsed: 0.46 s  <<< FAILURE!
-java.lang.IllegalStateException: The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver
-	at Pruebas.TestLogin.setUp(TestLogin.java:29)
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.946 s <<< FAILURE! - in TestSuite
+Pruebas.TestLogin.setUp  Time elapsed: 0.636 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	URL cannot be resolved to a type
+
+	at Pruebas.TestLogin.setUp(TestLogin.java:35)
 

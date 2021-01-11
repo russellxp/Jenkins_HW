@@ -6,29 +6,44 @@ import org.testng.annotations.*;
 import paginas.PaginaHome;
 import paginas.PaginaLogin;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 
 //import java.io.File;
 //import java.io.IOException;
 
 //import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TestLogin {
 
-	WebDriver driver;
-	String driverPath = "google-chrome";
+//	WebDriver driver;
+//	String driverPath = "google-chrome";
 //	String driverPath = "./Drivers/chromedriver.exe";
 //	String driverPath = "/var/jenkins_home/workspace/Java_App_Maven/Drivers/chromedriver";
-	String urlTest ="https://test.hospiceworks.com/login";
+//	String urlTest ="https://test.hospiceworks.com/login";
 	
-	
+
 	@BeforeSuite
-	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", driverPath);
+	public void setUp() throws MalformedURLException {
 		
-		driver = new ChromeDriver();
-		driver.get(urlTest);
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.setCapability("browserVersion", "67");
+		chromeOptions.setCapability("platformName", "Windows XP");
+		WebDriver driver = new RemoteWebDriver(new URL("192.168.14:4442"), chromeOptions);
+		
+		
+		driver.get("https://test.hospiceworks.com/login");
+		driver.quit();
+		
+	//	System.setProperty("webdriver.chrome.driver", driverPath);
+		
+	//	driver = new ChromeDriver();
+	//	driver.get(urlTest);
 		
 	}
 	
@@ -117,6 +132,7 @@ public class TestLogin {
 	@AfterTest
 	public void cerrar() {
 		driver.close();
+		
 	}
 	
 
