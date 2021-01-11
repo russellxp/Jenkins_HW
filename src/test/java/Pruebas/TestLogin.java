@@ -21,7 +21,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TestLogin {
 
-//	WebDriver driver;
+	WebDriver driver;
 //	String driverPath = "google-chrome";
 //	String driverPath = "./Drivers/chromedriver.exe";
 //	String driverPath = "/var/jenkins_home/workspace/Java_App_Maven/Drivers/chromedriver";
@@ -34,7 +34,7 @@ public class TestLogin {
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.setCapability("browserVersion", "67");
 		chromeOptions.setCapability("platformName", "Windows XP");
-		WebDriver driver = new RemoteWebDriver(new URL("192.168.14:4442"), chromeOptions);
+		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.14:4444/wd/hub"), chromeOptions);
 		
 		
 		driver.get("https://test.hospiceworks.com/login");

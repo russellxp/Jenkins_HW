@@ -1,11 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.946 s <<< FAILURE! - in TestSuite
-Pruebas.TestLogin.setUp  Time elapsed: 0.636 s  <<< FAILURE!
-java.lang.Error: 
-Unresolved compilation problem: 
-	URL cannot be resolved to a type
-
-	at Pruebas.TestLogin.setUp(TestLogin.java:35)
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 3.463 s <<< FAILURE! - in TestSuite
+Pruebas.TestLogin.setUp  Time elapsed: 3.135 s  <<< FAILURE!
+org.openqa.selenium.UnsupportedCommandException: 
+Unable to find handler for (POST) /wd/hub/session
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-EBUL8M11', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: RemoteWebDriver
+remote stacktrace: 
+	at Pruebas.TestLogin.setUp(TestLogin.java:37)
 
