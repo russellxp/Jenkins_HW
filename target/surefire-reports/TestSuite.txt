@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.906 s - in TestSuite
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.667 s <<< FAILURE! - in TestSuite
+Pruebas.TestLogin.setUp  Time elapsed: 0.46 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: D:\var\jenkins_home\workspace\Java_App_Maven\Drivers\chromedriver
+	at Pruebas.TestLogin.setUp(TestLogin.java:29)
+
