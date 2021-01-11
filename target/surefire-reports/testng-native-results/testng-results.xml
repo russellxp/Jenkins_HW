@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="4138" started-at="2021-01-10T21:37:55 COT" finished-at="2021-01-10T21:37:59 COT">
+  <suite name="Surefire suite" duration-ms="4318" started-at="2021-01-11T00:42:58 COT" finished-at="2021-01-11T00:43:02 COT">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="4138" started-at="2021-01-10T21:37:55 COT" finished-at="2021-01-10T21:37:59 COT">
+    <test name="Surefire test" duration-ms="4318" started-at="2021-01-11T00:42:58 COT" finished-at="2021-01-11T00:43:02 COT">
       <class name="Pruebas.TestLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="setUp" is-config="true" duration-ms="10960" started-at="2021-01-10T21:37:44 COT" finished-at="2021-01-10T21:37:55 COT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="setUp" is-config="true" duration-ms="9007" started-at="2021-01-11T00:42:49 COT" finished-at="2021-01-11T00:42:58 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="correctLogin" duration-ms="3083" started-at="2021-01-10T21:37:55 COT" finished-at="2021-01-10T21:37:58 COT">
+        <test-method status="PASS" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="correctLogin" duration-ms="3357" started-at="2021-01-11T00:42:58 COT" finished-at="2021-01-11T00:43:01 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctLogin -->
-        <test-method status="PASS" signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="errorLogin" duration-ms="965" started-at="2021-01-10T21:37:58 COT" finished-at="2021-01-10T21:37:59 COT">
+        <test-method status="PASS" signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="errorLogin" duration-ms="892" started-at="2021-01-11T00:43:01 COT" finished-at="2021-01-11T00:43:02 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorLogin -->
-        <test-method status="PASS" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="cerrar" is-config="true" duration-ms="51" started-at="2021-01-10T21:37:59 COT" finished-at="2021-01-10T21:37:59 COT">
+        <test-method status="PASS" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@5ae63ade]" name="cerrar" is-config="true" duration-ms="46" started-at="2021-01-11T00:43:02 COT" finished-at="2021-01-11T00:43:02 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrar -->

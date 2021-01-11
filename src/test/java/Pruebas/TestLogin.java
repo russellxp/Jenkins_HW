@@ -17,7 +17,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestLogin {
 
 	WebDriver driver;
-	String driverPath = "/home/osboxes/Downloads/chromedriver_linux64/chromedriver";
+	String driverPath = "./Drivers/chromedriver.exe";
 //	String driverPath = "/var/jenkins_home/workspace/Java_App_Maven/Drivers/chromedriver.exe";
 	String urlTest ="https://test.hospiceworks.com/login";
 	
