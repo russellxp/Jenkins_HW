@@ -32,9 +32,11 @@ public class TestLogin {
 	public void setUp() throws MalformedURLException {
 		
 		ChromeOptions chromeOptions = new ChromeOptions();
-		chromeOptions.setCapability("browserVersion", "67");
-		chromeOptions.setCapability("platformName", "Windows XP");
-		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.14:4444/wd/hub"), chromeOptions);
+		chromeOptions.setCapability("browserVersion", "87");
+		chromeOptions.setCapability("platformName", "LINUX");
+		//chromeOptions.setCapability("browserName", "chrome");
+		
+		driver = new RemoteWebDriver(new URL("http://192.168.1.14:4446/wd/hub"), chromeOptions);
 		
 		
 		driver.get("https://test.hospiceworks.com/login");
