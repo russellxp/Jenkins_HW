@@ -9,6 +9,7 @@ import paginas.PaginaLogin;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 import java.lang.Object;
 
 //import java.io.File;
@@ -59,7 +60,7 @@ public class TestLogin {
 	      // chromeOptions.setCapability("console", true); // To capture console logs
 
 		
-	//	System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
 		//nodeUrl = "http://192.168.100.4:4444/wd/hub";
 		//DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		//capabilities.setPlatform(Platform.SIERRA);
@@ -70,10 +71,11 @@ public class TestLogin {
 		
 		
 		driver = new RemoteWebDriver(new URL("http://192.168.1.14:4446/wd/hub"), chromeOptions);
-		//driver.setFileDetector(new LocalFileDetector());
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.setFileDetector(new LocalFileDetector());
 		
 		driver.get("https://test.hospiceworks.com/login");
-		driver.quit();
+		//driver.close();
 		
 	//	System.setProperty("webdriver.chrome.driver", driverPath);
 		
@@ -132,7 +134,6 @@ public class TestLogin {
 	
 	@Test
 	public void correctLogin() {
-	
 		PaginaLogin login = new PaginaLogin(driver);
 		login.escribirUsername("guido.robles");
 		login.escribirPassword("Guido$01");

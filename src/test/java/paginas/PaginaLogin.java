@@ -1,14 +1,16 @@
 package paginas;
 
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 public class PaginaLogin {
 
-WebDriver driver;
+//WebDriver driver;
+RemoteWebDriver driver;
 	
 	@FindBy(xpath="//input[@id='username']")
 	WebElement txtUsername;
@@ -25,7 +27,7 @@ WebDriver driver;
 	@FindBy(linkText="Reset password")
 	WebElement linkReset;
 		
-	public PaginaLogin(WebDriver driver) {
+	public PaginaLogin(RemoteWebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(new AjaxElementLocatorFactory (driver,20), this);
 	}

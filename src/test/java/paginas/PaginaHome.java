@@ -2,13 +2,14 @@ package paginas;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 public class PaginaHome {
 
-WebDriver driver;
+	RemoteWebDriver driver;
 	
 	@FindBy(xpath="/html[1]/body[1]/div[3]/div[1]/a[2]")
 	WebElement optionMenuReferral;
@@ -41,7 +42,7 @@ WebDriver driver;
 	@FindBy(xpath="//body/div[3]/div[1]/div[3]/div[1]/a[2]")
 	WebElement logOut;	
 	
-	public PaginaHome(WebDriver driver) {
+	public PaginaHome(RemoteWebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(new AjaxElementLocatorFactory (driver,20), this);
 	}

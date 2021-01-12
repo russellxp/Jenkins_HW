@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="40227" started-at="2021-01-11T21:06:56 COT" finished-at="2021-01-11T21:07:36 COT">
+  <suite name="Suite" duration-ms="40329" started-at="2021-01-11T22:14:57 COT" finished-at="2021-01-11T22:15:37 COT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="40227" started-at="2021-01-11T21:06:56 COT" finished-at="2021-01-11T21:07:36 COT">
+    <test name="Test" duration-ms="40329" started-at="2021-01-11T22:14:57 COT" finished-at="2021-01-11T22:15:37 COT">
       <class name="Pruebas.TestLogin">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Pruebas.TestLogin@42d8062c]" name="setUp" is-config="true" duration-ms="13671" started-at="2021-01-11T21:06:42 COT" finished-at="2021-01-11T21:06:56 COT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Pruebas.TestLogin@45820e51]" name="setUp" is-config="true" duration-ms="12465" started-at="2021-01-11T22:14:44 COT" finished-at="2021-01-11T22:14:57 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@42d8062c]" name="correctLogin" duration-ms="20097" started-at="2021-01-11T21:06:56 COT" finished-at="2021-01-11T21:07:16 COT">
+        <test-method status="FAIL" signature="correctLogin()[pri:0, instance:Pruebas.TestLogin@45820e51]" name="correctLogin" duration-ms="20104" started-at="2021-01-11T22:14:57 COT" finished-at="2021-01-11T22:15:17 COT">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/By$StandardLocator]]>
@@ -26,7 +26,7 @@ at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponen
 at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy13.clear(Unknown Source)
-at paginas.PaginaLogin.escribirUsername(PaginaLogin.java:34)
+at paginas.PaginaLogin.escribirUsername(PaginaLogin.java:36)
 at Pruebas.TestLogin.correctLogin(TestLogin.java:137)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -62,7 +62,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctLogin -->
-        <test-method status="FAIL" signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@42d8062c]" name="errorLogin" duration-ms="20044" started-at="2021-01-11T21:07:16 COT" finished-at="2021-01-11T21:07:36 COT">
+        <test-method status="FAIL" signature="errorLogin()[pri:0, instance:Pruebas.TestLogin@45820e51]" name="errorLogin" duration-ms="20039" started-at="2021-01-11T22:15:17 COT" finished-at="2021-01-11T22:15:37 COT">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/openqa/selenium/By$StandardLocator]]>
@@ -77,7 +77,7 @@ at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponen
 at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy13.clear(Unknown Source)
-at paginas.PaginaLogin.escribirUsername(PaginaLogin.java:34)
+at paginas.PaginaLogin.escribirUsername(PaginaLogin.java:36)
 at Pruebas.TestLogin.errorLogin(TestLogin.java:88)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -113,7 +113,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorLogin -->
-        <test-method status="PASS" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@42d8062c]" name="cerrar" is-config="true" duration-ms="1" started-at="2021-01-11T21:07:36 COT" finished-at="2021-01-11T21:07:36 COT">
+        <test-method status="PASS" signature="cerrar()[pri:0, instance:Pruebas.TestLogin@45820e51]" name="cerrar" is-config="true" duration-ms="123" started-at="2021-01-11T22:15:37 COT" finished-at="2021-01-11T22:15:37 COT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrar -->

@@ -2,13 +2,14 @@ package paginas;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 
 public class PaginaRequest {
-WebDriver driver;
+	RemoteWebDriver driver;
 	
 	@FindBy(xpath="//input[@id='username']")
 	WebElement txtUsername;
@@ -25,7 +26,7 @@ WebDriver driver;
 	@FindBy(xpath="//body/div[3]")
 	WebElement formReq;
 	
-	public PaginaRequest(WebDriver driver) {
+	public PaginaRequest(RemoteWebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(new AjaxElementLocatorFactory (driver,20), this);
 	}
