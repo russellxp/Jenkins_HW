@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 11 19:18:51 COT 2021</td>
+<td>Started on:</td><td>Mon Jan 11 20:35:12 COT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (39 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (42 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,11 +76,11 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Pruebas.TestLogin.setUp()'><b>setUp</b><br>Test class: Pruebas.TestLogin</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-EBUL8M11&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
 Driver info: driver.version: RemoteWebDriver
-remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
@@ -116,7 +116,7 @@ remote stacktrace: org.openqa.grid.common.exception.GridException: Error forward
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.internal.ProxySet.verifyAbilityToHandleDesiredCapabilities(ProxySet.java:153)
 	at org.openqa.grid.internal.DefaultGridRegistry.addNewSessionRequest(DefaultGridRegistry.java:217)
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:111)
@@ -141,13 +141,13 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
-	at Pruebas.TestLogin.setUp(TestLogin.java:39)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1916904573", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1916904573'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+	at Pruebas.TestLogin.setUp(TestLogin.java:70)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1233308726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1233308726'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-EBUL8M11&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
 Driver info: driver.version: RemoteWebDriver
-remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
@@ -183,7 +183,7 @@ remote stacktrace: org.openqa.grid.common.exception.GridException: Error forward
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.internal.ProxySet.verifyAbilityToHandleDesiredCapabilities(ProxySet.java:153)
 	at org.openqa.grid.internal.DefaultGridRegistry.addNewSessionRequest(DefaultGridRegistry.java:217)
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:111)
@@ -212,7 +212,7 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
-	at Pruebas.TestLogin.setUp(TestLogin.java:39)
+	at Pruebas.TestLogin.setUp(TestLogin.java:70)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -239,7 +239,7 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 </pre></div></td>
 <td>1</td>
-<td>Pruebas.TestLogin@4973813a</td></tr>
+<td>Pruebas.TestLogin@3b084709</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -251,8 +251,8 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 <tr>
 <td title='Pruebas.TestLogin.cerrar()'><b>cerrar</b><br>Test class: Pruebas.TestLogin</td>
 <td></td>
-<td>-1610410731</td>
-<td>Pruebas.TestLogin@4973813a</td></tr>
+<td>-1610415312</td>
+<td>Pruebas.TestLogin@3b084709</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -263,11 +263,11 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 </tr>
 <tr>
 <td title='Pruebas.TestLogin.correctLogin()'><b>correctLogin</b><br>Test class: Pruebas.TestLogin</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-EBUL8M11&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
 Driver info: driver.version: RemoteWebDriver
-remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
@@ -303,7 +303,7 @@ remote stacktrace: org.openqa.grid.common.exception.GridException: Error forward
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.internal.ProxySet.verifyAbilityToHandleDesiredCapabilities(ProxySet.java:153)
 	at org.openqa.grid.internal.DefaultGridRegistry.addNewSessionRequest(DefaultGridRegistry.java:217)
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:111)
@@ -328,13 +328,13 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
-	at Pruebas.TestLogin.setUp(TestLogin.java:39)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1716932897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1716932897'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+	at Pruebas.TestLogin.setUp(TestLogin.java:70)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace905080434", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace905080434'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-EBUL8M11&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
 Driver info: driver.version: RemoteWebDriver
-remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
@@ -370,7 +370,7 @@ remote stacktrace: org.openqa.grid.common.exception.GridException: Error forward
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.internal.ProxySet.verifyAbilityToHandleDesiredCapabilities(ProxySet.java:153)
 	at org.openqa.grid.internal.DefaultGridRegistry.addNewSessionRequest(DefaultGridRegistry.java:217)
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:111)
@@ -399,7 +399,7 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
-	at Pruebas.TestLogin.setUp(TestLogin.java:39)
+	at Pruebas.TestLogin.setUp(TestLogin.java:70)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -426,14 +426,14 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 </pre></div></td>
 <td>0</td>
-<td>Pruebas.TestLogin@4973813a</td></tr>
+<td>Pruebas.TestLogin@3b084709</td></tr>
 <tr>
 <td title='Pruebas.TestLogin.errorLogin()'><b>errorLogin</b><br>Test class: Pruebas.TestLogin</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-EBUL8M11&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
 Driver info: driver.version: RemoteWebDriver
-remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
@@ -469,7 +469,7 @@ remote stacktrace: org.openqa.grid.common.exception.GridException: Error forward
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.internal.ProxySet.verifyAbilityToHandleDesiredCapabilities(ProxySet.java:153)
 	at org.openqa.grid.internal.DefaultGridRegistry.addNewSessionRequest(DefaultGridRegistry.java:217)
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:111)
@@ -494,13 +494,13 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
-	at Pruebas.TestLogin.setUp(TestLogin.java:39)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace801569151", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace801569151'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+	at Pruebas.TestLogin.setUp(TestLogin.java:70)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace761750706", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace761750706'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
 System info: host: &apos;LAPTOP-EBUL8M11&apos;, ip: &apos;192.168.1.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
 Driver info: driver.version: RemoteWebDriver
-remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+remote stacktrace: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
@@ -536,7 +536,7 @@ remote stacktrace: org.openqa.grid.common.exception.GridException: Error forward
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, browserVersion: 87, goog:chromeOptions: {args: [], extensions: []}, platformName: linux}
+Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridException: cannot find : Capabilities {browserName: chrome, build: LambdaTestApp, console: true, goog:chromeOptions: {args: [], extensions: []}, name: LambdaTestGridExample, network: true, platform: WIN10, version: 70.0, video: true, visual: true}
 	at org.openqa.grid.internal.ProxySet.verifyAbilityToHandleDesiredCapabilities(ProxySet.java:153)
 	at org.openqa.grid.internal.DefaultGridRegistry.addNewSessionRequest(DefaultGridRegistry.java:217)
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:111)
@@ -565,7 +565,7 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:127)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
-	at Pruebas.TestLogin.setUp(TestLogin.java:39)
+	at Pruebas.TestLogin.setUp(TestLogin.java:70)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -592,7 +592,7 @@ Caused by: org.openqa.grid.common.exception.CapabilityNotPresentOnTheGridExcepti
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 </pre></div></td>
 <td>0</td>
-<td>Pruebas.TestLogin@4973813a</td></tr>
+<td>Pruebas.TestLogin@3b084709</td></tr>
 </table><p>
 </body>
 </html>
