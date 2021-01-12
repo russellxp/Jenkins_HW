@@ -46,15 +46,17 @@ public class TestLogin {
 		chromeOptions.setCapability("browserName", "chrome");
 		*/
 		
-	       chromeOptions.setCapability("browserName", "chrome"); //To specify the browser
-	       chromeOptions.setCapability("version", "70.0"); //To specify the browser version
-	       chromeOptions.setCapability("platform", "win10"); // To specify the OS
-	       chromeOptions.setCapability("build", "LambdaTestApp"); //To identify the test
-	       chromeOptions.setCapability("name", "LambdaTestGridExample");
-	       chromeOptions.setCapability("network", true); // To enable network logs
-	       chromeOptions.setCapability("visual", true); // To enable step by step screenshot
-	       chromeOptions.setCapability("video", true); // To enable video recording
-	       chromeOptions.setCapability("console", true); // To capture console logs
+		//: , : , : 1, : , : , : , :, : 
+		
+	       chromeOptions.setCapability("applicationName", ""); //To specify the browser
+	       chromeOptions.setCapability("browserName", "chrome"); //To specify the browser version
+	       chromeOptions.setCapability("maxInstances", "1"); // To specify the OS
+	       chromeOptions.setCapability("platform", "LINUX"); //To identify the test
+	       chromeOptions.setCapability("platformName", "LINUX");
+	       chromeOptions.setCapability("seleniumProtocol", "WebDriver"); // To enable network logs
+	       chromeOptions.setCapability("server", "CONFIG_UUID: 5e1187dd-1e42-4c8a-a589-0fe..."); // To enable step by step screenshot
+	       chromeOptions.setCapability("version", "87.0.4280.88"); // To enable video recording
+	      // chromeOptions.setCapability("console", true); // To capture console logs
 
 		
 	//	System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
@@ -68,7 +70,7 @@ public class TestLogin {
 		
 		
 		driver = new RemoteWebDriver(new URL("http://192.168.1.14:4446/wd/hub"), chromeOptions);
-		driver.setFileDetector(new LocalFileDetector());
+		//driver.setFileDetector(new LocalFileDetector());
 		
 		driver.get("https://test.hospiceworks.com/login");
 		driver.quit();
@@ -164,7 +166,7 @@ public class TestLogin {
 	
 	@AfterTest
 	public void cerrar() {
-		driver.close();
+		driver.quit();
 		
 	}
 	
