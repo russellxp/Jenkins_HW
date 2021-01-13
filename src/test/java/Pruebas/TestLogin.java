@@ -51,7 +51,7 @@ public class TestLogin {
 		
 	       chromeOptions.setCapability("applicationName", ""); //To specify the browser
 	       chromeOptions.setCapability("browserName", "chrome"); //To specify the browser version
-	       chromeOptions.setCapability("maxInstances", "1"); // To specify the OS
+	       chromeOptions.setCapability("maxInstances", "2"); // To specify the OS
 	       chromeOptions.setCapability("platform", "LINUX"); //To identify the test
 	       chromeOptions.setCapability("platformName", "LINUX");
 	       chromeOptions.setCapability("seleniumProtocol", "WebDriver"); // To enable network logs
@@ -60,7 +60,7 @@ public class TestLogin {
 	      // chromeOptions.setCapability("console", true); // To capture console logs
 
 		
-		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
 		//nodeUrl = "http://192.168.100.4:4444/wd/hub";
 		//DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 		//capabilities.setPlatform(Platform.SIERRA);
@@ -70,8 +70,8 @@ public class TestLogin {
 		//driver.get("http://www.amazon.com");
 		
 		
-		driver = new RemoteWebDriver(new URL("http://192.168.16.108:4446/wd/hub"), chromeOptions);
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver = new RemoteWebDriver(new URL("http://192.168.16.108:4444/wd/hub"), chromeOptions);
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.setFileDetector(new LocalFileDetector());
 		
 		driver.get("https://test.hospiceworks.com/login");
