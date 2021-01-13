@@ -70,8 +70,8 @@ public class TestLogin {
 		//driver.get("http://www.amazon.com");
 		
 		
-		driver = new RemoteWebDriver(new URL("http://192.168.1.14:4446/wd/hub"), chromeOptions);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver = new RemoteWebDriver(new URL("http://192.168.16.108:4446/wd/hub"), chromeOptions);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.setFileDetector(new LocalFileDetector());
 		
 		driver.get("https://test.hospiceworks.com/login");
